@@ -1,0 +1,1 @@
+ /home/emilioduarte/www/meucontrole/.dart_tool/flutter_build/94799e07c6d01b6ccc0f3503dba576c4/native_assets.yaml: 

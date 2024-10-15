@@ -7,13 +7,13 @@ class HomePassword extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Esqueceu a senha')),
+      appBar: AppBar(title: const Text('Esqueceu a senha')),
       body: Center(
         child: ElevatedButton(
           onPressed: () {
             Navigator.pushNamed(context, Routes.home);
           },
-          child: Text('Ir para Detalhes'),
+          child: const Text('Ir para Detalhes'),
         ),
       ),
     );

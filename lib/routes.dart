@@ -11,14 +11,14 @@ class Routes {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
       case home:
-        return MaterialPageRoute(builder: (_) => HomePage());
+        return MaterialPageRoute(builder: (_) => const HomePage());
       case password:
-        return MaterialPageRoute(builder: (_) => HomePassword());
+        return MaterialPageRoute(builder: (_) => const HomePassword());
       case login:
-        return MaterialPageRoute(builder: (_) => LoginPage());
+        return MaterialPageRoute(builder: (_) => const LoginPage());
       default:
         return MaterialPageRoute(
-            builder: (_) => HomePage()); // Redireciona para Home por padrão
+            builder: (_) => const HomePage()); // Redireciona para Home por padrão
     }
   }
 }

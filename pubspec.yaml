@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  validators: ^3.0.0 # change to latest version
 
 dev_dependencies:
   flutter_test:
