@@ -17,15 +17,30 @@ class _LoginPageState extends State<LoginPage> {
       appBar: AppBar(title: const Text('Login')),
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Image.asset('assets/loreipsum.png'),
-            Form(
-              key: _formKey,
-              child: TextFormField(
-                decoration: const InputDecoration(
-                  icon: Icon(Icons.person),
-                  hintText: 'What do people call you?',
-                  labelText: 'Name *',
+            Image.asset('assets/loreipsum.png', height: 220, fit: BoxFit.cover),
+            Padding(
+              padding: const EdgeInsets.only(
+                  left: 20, right: 14, top: 14, bottom: 10),
+              child: Form(
+                key: _formKey,
+                child: ListView(
+                  shrinkWrap: true,
+                  children: [
+                    TextFormField(
+                      decoration: const InputDecoration(
+                        icon: Icon(Icons.person),
+                        labelText: 'Username *',
+                      ),
+                    ),
+                    TextFormField(
+                      decoration: const InputDecoration(
+                        icon: Icon(Icons.password),
+                        labelText: 'Password *',
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ),

@@ -39,7 +39,7 @@
     },
     {
       "name": "flutter",
-      "rootUri": "file:///home/emilioduarte/www/flutter/packages/flutter",
+      "rootUri": "file:///home/emilioduarte/Android/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
@@ -51,7 +51,7 @@
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///home/emilioduarte/www/flutter/packages/flutter_test",
+      "rootUri": "file:///home/emilioduarte/Android/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
@@ -105,7 +105,7 @@
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///home/emilioduarte/www/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///home/emilioduarte/Android/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -170,10 +170,10 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2024-10-15T17:51:36.278857Z",
+  "generated": "2024-10-15T20:32:29.243428Z",
   "generator": "pub",
   "generatorVersion": "3.5.3",
-  "flutterRoot": "file:///home/emilioduarte/www/flutter",
+  "flutterRoot": "file:///home/emilioduarte/Android/flutter",
   "flutterVersion": "3.24.3",
   "pubCache": "file:///home/emilioduarte/.pub-cache"
 }
